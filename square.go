@@ -10,7 +10,7 @@ type Square struct {
 }
 
 func (s Square) End() Point {
-	return Point{x: s.start.x + int(s.a), y: s.start.y - int(s.a)}
+	return Point{x: s.start.x + int(s.a), y: s.start.y + int(s.a)}
 }
 
 func (s Square) Area() uint {
